@@ -1,1 +1,205 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhanjit Baishya - Web Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="img.jpeg" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-logo">Dhanjit Baishya</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="main-section">
+      <div class="profile-section">
+        <img class="profile-pic" src="img.jpeg" alt="Profile Picture" />
+        <h1>Dhanjit Baishya</h1>
+        <h2>Web Developer</h2>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+          <a href="mailto:djbaishya007@gmail.com"><img src="gmail.png" alt="Email" /></a>
+          <a href="https://www.instagram.com/tijnahd"><img src="instagram.png" alt="Instagram" /></a>
+          <a href="https://github.com/dhanjitbaishya"><img src="github.png" alt="GitHub" /></a>
+          <a href="www.linkedin.com/in/dhanjit-baishya-2534712b4"><img src="linkedin.png" alt="LinkedIn" /></a>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h2>About Me</h2>
+        <p>
+          Dhanjit Baishya is a recent graduate in Computer Science, specializing
+          in software development and web technologies. He has experience in
+          developing applications using Python, Django, with a strong background
+          in programming languages such as C, C++, and Java. Dhanjit has worked
+          on diverse projects, including a task management API, a bank
+          management system, and a messaging app. He is passionate about
+          building interactive web applications and is currently focused on
+          enhancing his skills in React and cloud computing.
+        </p>
+
+        <!-- Download CV Button -->
+        <a href="DhanjitBaishya_Resume.pdf" class="download-cv-btn"
+          >Download CV</a>
+      </div>
+<br>
+      <div class="info-section">
+        <!-- Interests Section -->
+        <div class="interests">
+          <h3>Interests</h3>
+          <ul>
+            <li>Artificial Intelligence</li>
+            <li>Cloud Computing</li>
+            <li>Internet of Things</li>
+          </ul>
+        </div>
+
+        <!-- Education Section -->
+        <div class="education">
+          <h3>Education</h3>
+          <ul>
+            <li>BSc Computer Science, S.B. Deorah College</li>
+            <li>12th, Gopal Boro Govt. H.S. School</li>
+            <li>10th, Gopal Boro Govt. H.S. School</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <div class="projects-section">
+      <h3>Projects</h3>
+      <div class="projects-container">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <h4>Facebook Login Clone</h4>
+          <p>
+            This project is a frontend clone of Facebook's login page, created to replicate the layout, design, and functionality for practicing web development skills. It simulates the main structure, colors, font styles, and responsive design to deliver a professional, user-friendly interface similar to Facebook’s. While it doesn’t connect to a backend for actual authentication, it demonstrates an understanding of front-end development techniques.
+          </p>
+          <p>
+            Key features include a responsive design, UI consistency with Facebook’s branding, user input fields for email/phone and password, accessibility enhancements, and error handling UI. The project is built using HTML, CSS, and JavaScript.
+          </p>
+          <a href="https://github.com/your-username/facebook-login-clone" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <h4>Contact Management System</h4>
+          <p>
+              This Python-based project provides a command-line interface for managing contact information, including creating, updating, deleting, and listing contacts. Designed for ease of use, this application helps users efficiently manage contact details stored in a MongoDB database, making it a practical solution for contact data handling.
+          </p>
+          
+          <h5>Key Features</h5>
+          <ul>
+              <li><strong>Add New Contacts:</strong> Easily create and save new contacts with relevant details.</li>
+              <li><strong>Update Contact Information:</strong> Modify existing contact information in the database.</li>
+              <li><strong>Delete Contacts:</strong> Remove outdated or incorrect contacts.</li>
+              <li><strong>List All Contacts:</strong> Display a list of saved contacts with their details, providing a simple way to view and retrieve information.</li>
+          </ul>
+      
+          <h5>Technologies Used</h5>
+          <ul>
+              <li><strong>Python:</strong> The core language for implementing functionalities and managing database interactions.</li>
+              <li><strong>MongoDB:</strong> NoSQL database used for storing contact information, allowing flexible data storage.</li>
+              <li><strong>PyMongo:</strong> Python library for MongoDB integration, enabling direct interaction with MongoDB from the Python environment.</li>
+          </ul>
+      
+          <h5>Setup and Requirements</h5>
+          <p>
+              To run this project, you need to install the <code>pymongo</code> library. Use the following command on Windows:
+          </p>
+          <pre><code>pip install pymongo</code></pre>
+      
+          <h5>Sample Usage</h5>
+          <p>
+              Screenshots labeled <strong>CONM1</strong> and <strong>CONM2</strong> demonstrate examples of adding, updating, deleting, and listing contacts using this project.
+          </p>
+      
+          <h5>Learning Outcomes</h5>
+          <p>
+              This project helped deepen my understanding of database management with MongoDB and Python's data-handling capabilities. It also enhanced my skills in CRUD (Create, Read, Update, Delete) operations and basic CLI application design.
+          </p>
+      
+          <h5>Future Enhancements</h5>
+          <p>
+              For improved functionality, a GUI can be integrated using Python frameworks like Tkinter or PyQt. Additionally, adding search functionality or implementing user authentication would make the project more robust.
+          </p>
+          
+          <a href="https://github.com/dhanjitbaishya/projects/tree/main/contact manager" target="_blank">View Project</a>
+      </div>
+      
+
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <h4>Bank Management System</h4>
+          <p>This project facilitates basic banking operations such as account creation, deposits, withdrawals, balance inquiry, and more.
+    The Bank Management System is written in C language and provides a command-line interface to manage various banking operations. It is designed to handle multiple accounts with secure data handling practices. This project is useful for understanding the basic principles of file handling and user authentication in C programming.
+  </p>
+
+  <h5>Key Features</h5>
+  <ul>
+    <li><strong>Account Creation:</strong> Allows users to create new bank accounts with required details.</li>
+    <li><strong>Deposit and Withdraw Funds:</strong> Supports deposit and withdrawal functionalities to manage balances.</li>
+    <li><strong>Balance Inquiry:</strong> Lets users check the current balance of their accounts.</li>
+    <li><strong>File Handling:</strong> Stores account information in text files for easy data retrieval and updates.</li>
+    <li><strong>User Authentication:</strong> Secure login for users to access their banking operations.</li>
+  </ul>
+
+  <h5>Technologies Used</h5>
+  <ul>
+    <li><strong>C Language:</strong> Core programming language used to implement banking functionalities.</li>
+    <li><strong>File Handling:</strong> Used to store and retrieve account data securely.</li>
+  </ul>
+
+  <h5>Learning Outcomes</h5>
+  <p>
+    This project enhanced my understanding of C programming fundamentals, particularly in the areas of file handling, user input validation, and command-line interface design.
+  </p>
+
+  <h5>Future Enhancements</h5>
+  <p>
+    The system could be enhanced by adding a graphical user interface (GUI) using libraries such as GTK or extending the project to handle more advanced banking functionalities like loan management or transaction history tracking.
+  </p>
+  
+  <a href="https://github.com/dhanjitbaishya/projects/tree/main/bank_management_system" target="_blank">View Project</a>
+</div>
+      </div>
+    </div>
+<br>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://github.com/your-username" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/your-profile" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:your-email@example.com" target="_blank"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+
+        <p class="footer-text">Made with 💙 by Dhanjit Baishya</p>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Dhanjit Baishya. All rights reserved.</p>
+          <a href="#">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
