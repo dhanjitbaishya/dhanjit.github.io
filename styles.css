@@ -9,6 +9,9 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: white;
   color: white;
+  display: grid;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 
@@ -67,6 +70,8 @@ ul {
 
 .main-container{
   display: grid;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .about-1{
@@ -85,7 +90,7 @@ ul {
 }
 
 .about-sub-h h2{
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: black;
   font-weight: 500;
   font-family: inconsolata, sans-serif;
@@ -95,7 +100,9 @@ ul {
   display: flex;
   max-width: 100%;
   max-height: 100%;
-  padding: 30px 0px 50px 0px;
+  padding: 30px 400px 50px 400px;
+  margin-left: 50px;
+  margin-right: 50px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -109,12 +116,12 @@ ul {
 }
 
 .about-sub-button{
-  width: 100%;
-  height: 100%;
-  justify-content: space-evenly;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
   display: flex;
-  padding: 20px 0px 5px 0px;
-  gap: 0;
+  padding: 100px 0px 20px 0px;
+  gap: 80px;
 }
 
 .about-sub-button .btn{
@@ -150,22 +157,24 @@ ul {
 }
 
 .social-icons{
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  gap: 40px;
+  gap: 50px;
   padding: 10px;
+  border: 2px solid black;
 }
 
 .icon-github{
-  padding: 5px;
+  padding: 6px;
   background-color: grey;
   border-radius: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 
@@ -236,8 +245,8 @@ ul {
 
 #skills{
   display: grid;
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   background-color: white;
   margin: 100px 0px 100px 0px;
   text-align: center;
@@ -345,14 +354,15 @@ ul {
 }
 
 .edu-title{
-  height: 100%;
-  width: 100%;
-  display: grid;
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
   background-color: white;
+  justify-content: center;
 }
 
 .edu-title h2{
-  margin: 150px 0px 50px 640px;
+  margin: 150px 0px 40px 0px;
   color: black;
   font-size: 3rem;
   font-weight: 350;
@@ -421,7 +431,7 @@ ul {
 
 #project{
   padding: 15px;
-  margin: 0px;
+  margin:  0px;
   font-size: 10px;
   display: flex;
   background-color: white;
@@ -429,7 +439,8 @@ ul {
 }
 
 .project-title{
-  margin-top: 10px;
+  margin-top: 150px;
+  margin-bottom: 80px;
   display: flex;
   justify-content: center;
   font-family: Inconsolata, sans-serif;
@@ -475,7 +486,7 @@ ul {
   color: black;
   border-radius: 6px;
   opacity: 1.0;
-  box-shadow: 0 85px 45px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.2);
   width: 550px;
   height: 200px;
   display: grid;
@@ -507,7 +518,7 @@ ul {
 }
 
 .project-card:hover{
-  background-color: black;
+  background-color: rgb(157, 156, 156);
   color: white;
 }
 
@@ -582,32 +593,46 @@ footer {
 @media (max-width: 480px) {
 
   .nav-links{
-    gap: 20px;
+    gap: 80px;
     padding-right: 0px;
   }
 
   .nav-links a{
-    font-size: 1.1rem;
+    font-size: 2rem;
   }
 
   .nav-logo{
-    font-size: 1.2rem;
+    font-size: 2.5rem;
   }
 
   .about-sub-h h2{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .about-sub-p p{
-    font-size: 1rem;
-    padding: 0px 25px 0px 25px;
+    font-size: 2rem;
+    padding: 0px 50px 0px 50px;
+  }
+
+  .about-sub-button{
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .social-icons{
+    padding: 10px 10px 50px 10px;
   }
 
   .about-main{
     display: grid;
   }
   .about-2{
-    margin-left: 80px;
+    display: flex
+  }
+
+  .bi-bi-github{
+    height: 30px;
+    width: 30px;
   }
 
 }
