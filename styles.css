@@ -579,3 +579,12 @@ footer {
 }
 
 /* Responsive Styles */
+
+@media (max-width: 480px) {
+
+  .nav-links{
+    gap: 20px;
+    padding-right: 0px;
+  }
+  
+}
