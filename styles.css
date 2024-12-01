@@ -584,7 +584,14 @@ footer {
   .nav-links{
     gap: 20px;
     padding-right: 0px;
-    background-color: red;
+  }
+
+  .nav-links a{
+    font-size: 1.1rem;
+  }
+
+  .nav-logo{
+    font-size: 1.2rem;
   }
 
 }
