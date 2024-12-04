@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 body {
@@ -144,11 +146,16 @@ ul {
 
 
 .about-2{
-  max-width: 100%;
-  max-height: 100%;
-  display: flex;
+  max-width: fit-content;
+  max-height: fit-content;
+  display: contents;
+  align-items: center;
   justify-content: center;
+}
 
+.about-2 svg{
+  height: 100%;
+  width: 100%;
 }
 
 .about-main{
@@ -171,7 +178,7 @@ ul {
   padding: 6px;
   background-color: grey;
   border-radius: 40px;
-  display: flex;
+  
   justify-content: center;
   align-items: center;
 }
@@ -181,21 +188,19 @@ ul {
   padding: 8px;
   background-color: grey;
   border-radius: 40px;
-  display: flex;
 }
 
 .icon-mail{
   padding: 7px;
   background-color: grey;
   border-radius: 40px;
-  display: flex;
 }
 
 .icon-instag{
   padding: 8px;
   background-color: grey;
   border-radius: 40px;
-  display: flex;
+  
 }
 
 .bi-bi-github{

@@ -1,0 +1,66 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.form, .submit{
+    background-color: grey;
+    color: black;
+    font-family: Inconsolata, sans-serif;
+    font-size: 1.5rem;
+}
+
+.form{
+    max-height: fit-content;
+    max-width: fit-content;
+    border-radius: 10px;
+    display: flex;
+}
+
+#name{
+    height: 35px;
+    width: 200px;
+    color: black;
+    font-family: Inconsolata, sans-serif;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+#email{
+    height: 35px;
+    width: 200px;
+    color: black;
+    font-family: Inconsolata, sans-serif;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+#subject{
+    height: 35px;
+    width: 200px;
+    color: black;
+    font-family: Inconsolata, sans-serif;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+#msg{
+    height: 35px;
+    width: 200px;
+    color: black;
+    font-family: Inconsolata, sans-serif;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+.submit{
+    border-radius: 10px;
+    height: 60px;
+    width: 125px;
+}
+
+.submit:hover{
+    background-color: black;
+    color: white;
+}
