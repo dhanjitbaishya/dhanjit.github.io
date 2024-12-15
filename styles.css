@@ -256,6 +256,60 @@ ul {
   text-align: center;
 }
 
+.tech-skill{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.tech-skill h2{
+  color: black;
+  font-size: 3rem;
+  font-weight: 350;
+  font-family: inconsolata, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.tech-skill p{
+  color: black;
+  font-size: 2.2rem;
+  font-weight: 350;
+  font-family: inconsolata, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.tech-icons li{
+  color: black;
+  font-size: 2rem;
+  font-weight: 350;
+  font-family: inconsolata, sans-serif;
+}
+
+.tech-icons ul{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.tech-icons li p{
+  margin: 0px;
+  padding: 0px;
+}
+
+.tech-icons img{
+  height: 140px;
+  width: 140px;
+}
+
+.tech-icons p:hover{
+  color: blue;
+}
+
+
 .skills-title h2{
   color: black;
   font-size: 3rem;
