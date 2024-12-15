@@ -286,23 +286,37 @@ ul {
   font-size: 2rem;
   font-weight: 350;
   font-family: inconsolata, sans-serif;
+  list-style: none;
 }
 
-.tech-icons ul{
+.tech-icons-1 ul{
   display: flex;
-  gap: 100px;
   justify-content: center;
-  margin-top: 100px;
+  gap: 60px;
+}
+
+.tech-icons-2 ul{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.tech-icons{
+  display: grid;
+  margin-top: 80px;
+  margin-bottom: 200px;
 }
 
 .tech-icons li p{
   margin: 0px;
   padding: 0px;
+  font-size: 1.7rem;
 }
 
 .tech-icons img{
-  height: 140px;
-  width: 140px;
+  height: 100px;
+  width: 100px;
 }
 
 .tech-icons p:hover{
