@@ -83,7 +83,20 @@ ul {
   max-width: 60%;
   display: grid;
   background-color: white;
+  transform: translateX(-100%);
+  animation: slideRight 1s ease-out forwards;
 }
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 
 .about-sub-h{
   display: flex;
@@ -152,7 +165,22 @@ ul {
   height: 100%;
   display: flex;
   align-items: top;
+  transform: translateX(100%);
+  animation: slideLeft 1s ease-out forwards;
 }
+
+@keyframes slideLeft {
+0% {
+transform: translateX(100%);
+opacity: 0;
+}
+100% {
+transform: translateX(0);
+opacity: 1;
+}
+}
+
+
 
 .about-2 img{
   height: 70%;
@@ -669,7 +697,7 @@ footer {
     display: grid;
     margin-bottom: 5%;
   }
-  
+
   .about-2{
     height: 100%;
     width: 100%;
