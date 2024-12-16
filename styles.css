@@ -202,12 +202,12 @@ ul {
   text-align: center;
 }
 
-.tech-skill{
+#tech-skill{
   max-height: 100%;
   max-width: 100%;
 }
 
-.tech-skill h2{
+#tech-skill h2{
   color: black;
   font-size: 3rem;
   font-weight: 350;
@@ -218,7 +218,7 @@ ul {
   margin-bottom: 150px;
 }
 
-.tech-skill p{
+#tech-skill p{
   color: black;
   font-size: 2.2rem;
   font-weight: 350;
@@ -686,10 +686,6 @@ footer {
     border: 4px solid black;
   }
 
-  .bi-bi-github{
-    height: 30px;
-    width: 30px;
-  }
 
   .skills-fe-container{
     margin: 10px 350px 10px 350px;
