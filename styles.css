@@ -80,7 +80,7 @@ ul {
 
 .about-1{
   max-height: 100%;
-  max-width: 100%;
+  max-width: 60%;
   display: grid;
   background-color: white;
 }
@@ -104,9 +104,9 @@ ul {
   display: flex;
   max-width: 100%;
   max-height: 100%;
-  padding: 30px 200px 50px 200px;
+  padding: 30px 70px 50px 70px;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 0px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -148,16 +148,8 @@ ul {
 
 
 .about-2{
-  max-width: fit-content;
-  max-height: fit-content;
-  display: contents;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-2 svg{
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 .about-main{
@@ -168,85 +160,37 @@ ul {
 .social-icons{
   max-height: 100%;
   max-width: 100%;
+  display: grid;
+  color: black;
+}
+
+.social-icons ul{
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.social-icons ul img{
+  height: 70px;
+  width: 70px;
+}
+
+.social-icons-container{
+  border-radius: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
-  gap: 50px;
-  padding: 10px;
-}
-
-.icon-github{
-  padding: 6px;
+  height: 80px;
+  width: 80px;
+  margin: 0px;
+  padding-top: 3.5px;
   background-color: grey;
-  border-radius: 40px;
-  
-  justify-content: center;
-  align-items: center;
 }
 
-
-.icon-link{
-  padding: 8px;
-  background-color: grey;
-  border-radius: 40px;
-}
-
-.icon-mail{
-  padding: 7px;
-  background-color: grey;
-  border-radius: 40px;
-}
-
-.icon-instag{
-  padding: 8px;
-  background-color: grey;
-  border-radius: 40px;
-  
-}
-
-.bi-bi-github{
-  height: 36px;
-  width: 39px;
-  margin-top: 0px;
-}
-
-
-
-.icon-github:hover{
-  background-color: rgb(83, 83, 83);
-}
-
-.icon-link:hover{
-  background-color: rgb(83, 83, 83);
-}
-
-.icon-mail:hover{
-  background-color: rgb(83, 83, 83);
-}
-
-.icon-instag:hover{
-  background-color: rgb(83, 83, 83);
-}
-
-.bi-bi-linkedin{
-  height: 30px;
-  width: 35px;
-  margin-top: 0px;
-}
-
-
-
-.bi-bi-mail{
-  height: 34px;
-  width: 35px;
-  margin-top: 0px;
-}
-
-.bi-bi-instagram{
-  height: 32px;
-  width: 35px;
-  margin-top: 0px;
+.social-icons-container:hover{
+  background-color: rgb(84, 83, 83);
 }
 
 #skills{
@@ -271,6 +215,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-top: 200px;
+  margin-bottom: 150px;
 }
 
 .tech-skill p{
@@ -332,7 +277,7 @@ ul {
   font-weight: 350;
   font-family: inconsolata, sans-serif;
   margin-top: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 
@@ -673,20 +618,24 @@ footer {
   }
 
   .nav-links a{
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .nav-logo{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .about-sub-h h2{
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 
   .about-sub-p p{
-    font-size: 2rem;
+    font-size: 3.3rem;
     padding: 0px 50px 0px 50px;
+  }
+
+  .about-sub-p{
+    padding: 70px 15px 70px 15px;
   }
 
   .about-sub-button{
@@ -694,8 +643,19 @@ footer {
     gap: 50px;
   }
 
-  .social-icons{
-    padding: 10px 10px 50px 10px;
+  .social-icons-container{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+
+  .social-icons-container:hover{
+    background-color: rgb(84, 83, 83);
+  }
+
+  .social-icons ul img{
+    height: 95px;
+    width: 105px;
   }
 
   .about-main{
@@ -706,9 +666,113 @@ footer {
     width: 100%;
   }
 
+  .about-1{
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .about-sub-button .btn{
+    height: 100px;
+    width: 280px;
+    font-weight: 600;
+    font-size: 2.6rem;
+    border-radius: 15px;
+  }
+
+  .about-sub-button .btn:hover{
+    background-color: white;
+    color: black;
+    border: 4px solid black;
+  }
+
   .bi-bi-github{
     height: 30px;
     width: 30px;
+  }
+
+  .skills-fe-container{
+    margin: 10px 350px 10px 350px;
+    height: 35px;
+  }
+  .skills-pr-container{
+    margin: 10px 350px 10px 350px;
+    height: 35px;
+  }
+
+  .tech-skill h2{
+    font-size:4rem;
+  }
+
+  .tech-skill p{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .tech-icons li p{
+    font-size: 2.5rem;
+  }
+
+  .tech-icons img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .skills-title h2{
+    font-size: 4rem;
+  }
+
+  .skills-fe-title h2, .skills-pr-title h2{
+    font-size: 3rem;
+  }
+  .edu-title h2{
+    font-size: 4rem;
+  }
+
+  .edu-details h1{
+    font-size: 3.3rem;
+  }
+
+  .edu-details h2{
+    font-size: 3rem;
+  }
+  .edu-details h3{
+    font-size: 2.8rem;
+  }
+
+  .edu-logo-container{
+    width: 23%;
+  }
+
+  .edu-details li{
+    font-size: 2.6rem;
+  }
+
+  .project-title h2{
+    font-size: 4rem;
+  }
+
+  .project-card h2{
+    font-size: 3rem;
+  }
+
+  .project-card p, .project-card a, .footer-text, .footer-bottom{
+    font-size: 2.4rem;
+  }
+
+  .project-title{
+    margin-bottom: 130px;
+  }
+
+  .skills-title h2{
+    margin-bottom: 5%;
+  }
+
+  #skills{
+    margin: 100px 0px 300px 0px;
+  }
+
+  .skills-fe{
+    margin-bottom: 100px;
   }
 
 }
