@@ -660,6 +660,7 @@ footer {
 
   .about-main{
     display: grid;
+    margin-bottom: 5%;
   }
   .about-2{
     height: 100%;
