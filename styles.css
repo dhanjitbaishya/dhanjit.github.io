@@ -221,11 +221,11 @@ opacity: 1;
   width: 80px;
   margin: 0px;
   padding-top: 3.5px;
-  background-color: grey;
+  background-color: white;
 }
 
 .social-icons-container:hover{
-  background-color: rgb(84, 83, 83);
+  background-color: grey;
 }
 
 #skills{
@@ -260,7 +260,17 @@ opacity: 1;
   font-family: inconsolata, sans-serif;
   display: flex;
   justify-content: center;
-  margin-top: 8cqh;
+  margin-top: 0px;
+}
+
+#tech-skill .skill-p{
+  color: black;
+  font-size: 2.2rem;
+  font-weight: 350;
+  font-family: inconsolata, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
 }
 
 .tech-icons li{
@@ -282,12 +292,13 @@ opacity: 1;
   justify-content: center;
   gap: 60px;
   margin-top: 40px;
+  
 }
 
 .tech-icons{
   display: grid;
   margin-top: 80px;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 
 .tech-icons li p{
@@ -303,6 +314,10 @@ opacity: 1;
 
 .tech-icons p:hover{
   color: blue;
+}
+
+.tech-icons-2{
+  margin-top: 105px;
 }
 
 
@@ -405,6 +420,7 @@ opacity: 1;
   max-width: 100%;
   display: grid;
   margin-bottom: 10%;
+  margin-top:  15%;
 }
 
 .edu-title{
