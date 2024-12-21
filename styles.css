@@ -292,7 +292,6 @@ opacity: 1;
   justify-content: center;
   gap: 60px;
   margin-top: 40px;
-  
 }
 
 .tech-icons{
@@ -310,6 +309,11 @@ opacity: 1;
 .tech-icons img{
   height: 100px;
   width: 100px;
+}
+
+.tech-icons img:hover{
+  height: 108px;
+  width: 108px;
 }
 
 .tech-icons p:hover{
